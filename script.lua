@@ -45,6 +45,7 @@ local MainTab = Window:CreateTab("라이벌🤬")
 local TasTab = Window:CreateTab("한국끝말잇기😫")
 local DayTab = Window:CreateTab("99일 밤에서 살아남기😨")
 local BedTab = Window:CreateTab("배드워즈🤧")
+local slapTab = Window:CreateTab("슬랩배틀💢")
 
 
 Rayfield:Notify({
@@ -81,7 +82,7 @@ local Button = TasTab:CreateButton({
 local Button = DayTab:CreateButton({
     Name = " 99밤 스피드 킬아우라 등..(정상 작동중🟢)",
     Callback = function()
-loadstring(game:HttpGet("https://files.vapevoidware.xyz/VapeVoidware/VW-Add/main/loader.lua", true))()  
+loadstring(game:HttpGet("https://files.vapevoidware.xyz/VapeVoidware/VW-Add/main/loader.lua", true))()
     end,
 
 })
@@ -93,3 +94,22 @@ loadstring(game:HttpGet("https://files.vapevoidware.xyz/VapeVoidware/VW-Add/main
     end,
 
 })
+
+local Button = slapTab:CreateButton({
+    Name = " 슬랩배틀 슬랩 올리기 1.2만 슬랩 카운터 필요(정상 작동중단🔴)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NewNexer/NexerHub/refs/heads/main/SB/SFs/SFComponents%3D2.0EGRR.luau"))()
+    end,
+
+})
+
+
+
+local Button = slapTab:CreateButton({
+    Name = " 슬랩배틀 모든 장갑 스크립트 '없는것도있음'(정상 작동중단🔴)",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/UltimateBadgeHub/main/main.lua'))()
+    end,
+
+})
+
